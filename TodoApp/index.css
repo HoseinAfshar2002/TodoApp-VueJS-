@@ -1,48 +1,75 @@
-:root{
-    --color-primary:#1AB8DB ;
-    --color-primary2:#1AB8DB ;
-    --color-contrast:#E50000 ;
+:root {
+  --color-primary: #1ab8db;
+  --color-primary2: #1ab8db;
+  --color-contrast: #e50000;
 
-    --color-neutral-5:#222222 ;
-    --color-neutral-3:#888888 ;
-    --color-neutral-0:#FFFFFF ;
-    --color-neutral-1:#EEEEEE ;
-    --color-neutral-2:#DDDDDD ;
-    --color-neutral-4:#4444440D ;
+  --color-neutral-5: #222222;
+  --color-neutral-3: #888888;
+  --color-neutral-0: #ffffff;
+  --color-neutral-1: #eeeeee;
+  --color-neutral-2: #dddddd;
+  --color-neutral-4: #4444440d;
 
+  --color-primary-Contrast: linear-gradient(to right, #e50000, #1ab8db);
+  --color-primary-Gradiant: linear-gradient(to right, #1593af, #1ab8db);
+  --color-primary-dark-Gradiant: linear-gradient(to right, #222222, #1593af);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1ab8db;
+}
+#app {
+  width: 414px;
+  height: 100vh;
+  font-size: 15px;
+  background-color: var(--color-neutral-0);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 20px;
+}
+.header {
+  position: relative;
+  width: 414px;
+  height: 72px;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo2 {
+  /* position: absolute; */
+  height: 70px;
+  width: 70px;
+}
+.footer {
+  background-color: var(--color-neutral-1);
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  position: absolute;
+  bottom: 7px;
+  cursor: pointer;
+  box-shadow: #222222;
+  transition: all ease-in-out;
+ 
+}
+footer a:hover {
 
-    --color-primary-Contrast:linear-gradient(to right,#E50000,#1AB8DB) ;
-    --color-primary-Gradiant:linear-gradient(to right,#1593AF,#1AB8DB) ;
-    --color-primary-dark-Gradiant:linear-gradient(to right,#222222,#1593AF) ;
+scale: 1.1;
+ 
 }
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #1AB8DB;
-    position: relative;
-}
-#app{
-    width: 414px;
-    font-size: 15px;
-    background-color:var(--color-neutral-0);
-    margin: auto;
-  
-}
-.logo{
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    top: 20px;
-}
-.header{
-    width: 414px;
-    height:72px;
-    background-color: #222222;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-   
+main{
+    flex-grow: 1;
 }
