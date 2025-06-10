@@ -1,0 +1,48 @@
+:root{
+    --color-primary:#1AB8DB ;
+    --color-primary2:#1AB8DB ;
+    --color-contrast:#E50000 ;
+
+    --color-neutral-5:#222222 ;
+    --color-neutral-3:#888888 ;
+    --color-neutral-0:#FFFFFF ;
+    --color-neutral-1:#EEEEEE ;
+    --color-neutral-2:#DDDDDD ;
+    --color-neutral-4:#4444440D ;
+
+
+    --color-primary-Contrast:linear-gradient(to right,#E50000,#1AB8DB) ;
+    --color-primary-Gradiant:linear-gradient(to right,#1593AF,#1AB8DB) ;
+    --color-primary-dark-Gradiant:linear-gradient(to right,#222222,#1593AF) ;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1AB8DB;
+    position: relative;
+}
+#app{
+    width: 414px;
+    font-size: 15px;
+    background-color:var(--color-neutral-0);
+    margin: auto;
+  
+}
+.logo{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 20px;
+}
+.header{
+    width: 414px;
+    height:72px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
