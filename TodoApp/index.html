@@ -9,6 +9,37 @@
   </head>
   <body>
     <div id="app">
+      <div class="add-task">
+        <div class="header">
+          <h4>ADD TASK</h4>
+          <a href=""><img src="public/Vector.svg" alt="" /></a>
+        </div>
+        <div class="content">
+          <div class="baner">
+            <img src="public/Image Icon.svg" alt="" />
+          </div>
+          <br />
+          <form class="form" action="">
+            <div class="f-input">
+              <label for="">Title</label>
+              <input type="text" name="title" placeholder="Value" />
+            </div>
+            <div class="f-input">
+              <label for="">Description (optional)</label>
+              <textarea name="description" id="" placeholder="Value"></textarea>
+            </div>
+            <div class="f-input">
+              <label for="">Due date</label>
+              <input type="date" name="date" placeholder="Value" />
+            </div>
+            <div class="box-btn ">
+              <button class="btn1">Add</button>
+              <button class="btn2">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
       <header class="header">
         <img class="logo" src="public/Nav.svg" alt="" />
       </header>
@@ -26,7 +57,7 @@
           <div class="todo-item disable">
             <input type="checkbox" />
             <p>5 May 2022</p>
-            <p class="text-todo ">
+            <p class="text-todo">
               Example incomplete item Example incomplete item Example incomplete
               itemExample incomplete itemExample incomplete itemExample
               incomplete item
